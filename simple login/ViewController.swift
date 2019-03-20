@@ -42,7 +42,7 @@ let storeuserdata = UserDefaults.standard
         lblinvalidemail.text = ""
         lblinvalidpassword.text = ""
         lbllsucessfully.text = ""
-        if txtmail.text == "a@a.com"{
+        if txtmail.text == "a@a.com"  {
             if txtpassword.text == "amrit"{
                 lbllsucessfully.text = "Login Successful"
                 

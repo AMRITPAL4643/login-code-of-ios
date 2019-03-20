@@ -255,6 +255,9 @@
                             <outlet property="delegate" destination="XvE-h3-5ZZ" id="UbV-IQ-iCR"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <segue destination="Fuf-dc-BHZ" kind="show" identifier="studentcell" id="v4g-vU-Ysi"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FEf-2B-fGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

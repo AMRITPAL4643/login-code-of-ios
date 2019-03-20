@@ -9,10 +9,11 @@
 import UIKit
 
 class amrittableTableViewController: UITableViewController {
-
+let y = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+let user = y.string(forKey: "userId")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -31,9 +32,7 @@ class amrittableTableViewController: UITableViewController {
         if indexPath.section == 0{
             switch indexPath.row{
             case 0:
-                let y = UIStoryboard(name: "Main", bundle: nil)
-                let u = y.instantiateViewController(withIdentifier: "displayStudentDataVC") as! StudentDisplayViewController
-                self.navigationController?.pushViewController(u, animated: true)
+                self.performSegue(withIdentifier: "studentcell", sender: nil)
             case 1:
                 print("case 1")
             case 2:
