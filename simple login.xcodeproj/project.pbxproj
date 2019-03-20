@@ -12,6 +12,12 @@
 		84633F582241A2F400C332C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84633F562241A2F400C332C5 /* Main.storyboard */; };
 		84633F5A2241A2F500C332C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84633F592241A2F500C332C5 /* Assets.xcassets */; };
 		84633F5D2241A2F500C332C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84633F5B2241A2F500C332C5 /* LaunchScreen.storyboard */; };
+		84633F652241A71500C332C5 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633F642241A71500C332C5 /* homeViewController.swift */; };
+		84633F672241A92B00C332C5 /* w.png in Resources */ = {isa = PBXBuildFile; fileRef = 84633F662241A92B00C332C5 /* w.png */; };
+		84633F692241AF2300C332C5 /* amrittableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633F682241AF2300C332C5 /* amrittableTableViewController.swift */; };
+		84633F6B2241B61B00C332C5 /* StudentDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633F6A2241B61B00C332C5 /* StudentDisplayViewController.swift */; };
+		84633F6D2241B6AC00C332C5 /* studentdataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633F6C2241B6AC00C332C5 /* studentdataTableViewCell.swift */; };
+		84633F6F2241B78100C332C5 /* storeStudentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84633F6E2241B78100C332C5 /* storeStudentData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		84633F592241A2F500C332C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84633F5C2241A2F500C332C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84633F5E2241A2F500C332C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84633F642241A71500C332C5 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		84633F662241A92B00C332C5 /* w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w.png; sourceTree = "<group>"; };
+		84633F682241AF2300C332C5 /* amrittableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amrittableTableViewController.swift; sourceTree = "<group>"; };
+		84633F6A2241B61B00C332C5 /* StudentDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDisplayViewController.swift; sourceTree = "<group>"; };
+		84633F6C2241B6AC00C332C5 /* studentdataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentdataTableViewCell.swift; sourceTree = "<group>"; };
+		84633F6E2241B78100C332C5 /* storeStudentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storeStudentData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				84633F522241A2F400C332C5 /* AppDelegate.swift */,
 				84633F542241A2F400C332C5 /* ViewController.swift */,
+				84633F662241A92B00C332C5 /* w.png */,
 				84633F562241A2F400C332C5 /* Main.storyboard */,
 				84633F592241A2F500C332C5 /* Assets.xcassets */,
 				84633F5B2241A2F500C332C5 /* LaunchScreen.storyboard */,
 				84633F5E2241A2F500C332C5 /* Info.plist */,
+				84633F642241A71500C332C5 /* homeViewController.swift */,
+				84633F682241AF2300C332C5 /* amrittableTableViewController.swift */,
+				84633F6A2241B61B00C332C5 /* StudentDisplayViewController.swift */,
+				84633F6C2241B6AC00C332C5 /* studentdataTableViewCell.swift */,
+				84633F6E2241B78100C332C5 /* storeStudentData.swift */,
 			);
 			path = "simple login";
 			sourceTree = "<group>";
@@ -125,6 +143,7 @@
 				84633F5D2241A2F500C332C5 /* LaunchScreen.storyboard in Resources */,
 				84633F5A2241A2F500C332C5 /* Assets.xcassets in Resources */,
 				84633F582241A2F400C332C5 /* Main.storyboard in Resources */,
+				84633F672241A92B00C332C5 /* w.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84633F552241A2F400C332C5 /* ViewController.swift in Sources */,
+				84633F6D2241B6AC00C332C5 /* studentdataTableViewCell.swift in Sources */,
+				84633F6B2241B61B00C332C5 /* StudentDisplayViewController.swift in Sources */,
+				84633F652241A71500C332C5 /* homeViewController.swift in Sources */,
+				84633F6F2241B78100C332C5 /* storeStudentData.swift in Sources */,
+				84633F692241AF2300C332C5 /* amrittableTableViewController.swift in Sources */,
 				84633F532241A2F400C332C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
